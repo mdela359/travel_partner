@@ -1,4 +1,4 @@
-#Tutorial followed
+#Tutorial followed: https://youtu.be/M2NzvnfS-hI
 
 #library imported to connect to database
 import psycopg2
