@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[280]:
-
-
 #libraries 
 import numpy as np       
 import pandas as pd
@@ -13,6 +7,7 @@ def combineDT(ltemp, ldate):            #combine hour with tempature
     for x in range(23):
         finalL.append((ltemp[x],ldate[x]))
     return finalL
+
 def anon(lis,lisTwo):                  # remove random stuff 
     finalL =[]
     finalTwoL=[]
@@ -45,7 +40,6 @@ complete= combineDT (hrs,tempF)
 complete
 
 
-# In[ ]:
 
 
 
