@@ -37,10 +37,10 @@ except Exception as error:
     #print error if any
     print(error)
 finally:
-    #only close if connected to the database succesfully
+    #only close if connected to the database successfully
     if cur is not None:
         cur.close
-    #only close if connected to the databse succesfully
+    #only close if connected to the databse successfully
     if conn is not None:
         conn.close
     
